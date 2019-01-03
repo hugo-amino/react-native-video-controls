@@ -1327,7 +1327,7 @@ const styles = {
         },
         handle: {
             position: 'absolute',
-            marginLeft: -7,
+            marginLeft: -14,
             height: 28,
             width: 28,
         },
