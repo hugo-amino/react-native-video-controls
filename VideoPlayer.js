@@ -914,6 +914,7 @@ export default class VideoPlayer extends Component {
                     { width: this.state.volumeTrackWidth }
                 ]}/>
                 <View
+                    collapsable={false}
                     style={[
                         styles.volume.handle,
                         { left: this.state.volumePosition }
