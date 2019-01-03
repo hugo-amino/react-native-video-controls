@@ -995,6 +995,7 @@ export default class VideoPlayer extends Component {
                     ]}/>
                 </View>
                 <View
+                    collapsable={false}
                     style={[
                         styles.seekbar.handle,
                         { left: this.state.seekerPosition }
